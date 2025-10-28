@@ -4,7 +4,7 @@
 
 # Features
   * A function that calculates age from birth date
-  * Filter by last name, and sort by last name
+  * Filter by last name, and sort by last name.
   * Filter by email, and sort by email
   * Filter by age, and sort by age (and display the age)
   * A page where you can choose what to sort by from a select
