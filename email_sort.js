@@ -12,10 +12,12 @@ function render(search = '') {
         .toSorted((a, b) => a.email > b.email ? 1 : -1)
         .map(({ email }) =>
         `
-        <p>${email}</p>
+        <div class="person">
+            <p>${email}</p>
+        </div>
         `)
     .join('')
-    document.querySelector('.people').innerHTML = html
+    document.querySelector('article').innerHTML = html
 }
 
 document.querySelector('.search-field')
