@@ -6,6 +6,8 @@ function render(search = '') {
     .filter(({lastName}) => search === '' 
     || lastName.toLowerCase().startsWith(search.toLowerCase()))
     
+    //sorts name in alphabetical order
+    .toSorted((a, b) => a.lastName > b.lastName ? 1 : - 1)
 
 .map(({lastName}) => `
 <section class="person">
