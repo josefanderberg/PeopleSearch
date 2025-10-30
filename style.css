@@ -1,0 +1,58 @@
+.person {
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-field {
+    width: calc(100% - 25px);
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .img-people {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    button {
+    margin-bottom: 5px;
+    width: 30%;
+    max-width: 300px;
+    padding: 2%;
+    }
+
+    button {
+        padding: 0;
+        height: 30px;
+
+    }
+    a {
+        text-decoration: none;
+        color: #4e4e4e;
+        display: block;
+        text-align: center;
+        line-height: 25px;
+        height: 100%;
+        width: 100%;
+    }
+  }
+
+
